@@ -10,7 +10,7 @@ class Historia{
 		Citas *ObjCita; 
 		Medicamento *ObjMedicamento;
 	public:
-		Historia(Enfermedades *ObjEnfermedad, Citas *ObjCita, Medicamento *ObjMedicamento);
+		Historia();
 		~Historia();
 		
 		string getEnfermedad();

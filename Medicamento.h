@@ -4,17 +4,17 @@
 
 class Medicamento{
 	private:
-		string nombreM;
+		string nombre;
 		int numeroDosis;
 		
 	public:
-		Medicamento(string nombreM, int numeroDosis);
+		Medicamento(string nombre, int numeroDosis);
 		~Medicamento();
 		
-		string getNombreM();
+		string getNombre();
 		int getNumeroDosis();
 		
-		void setNombre(string nombreM);
+		void setNombre(string nombre);
 		void setNumeroDosis(int numeroDosis);
 		
 

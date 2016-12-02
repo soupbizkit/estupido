@@ -1,5 +1,5 @@
-#infdef HISTORIA_H
-#define HISTORIA_H
+#infdef ENFERMEDADES_H
+#define ENFERMEDADES_H
 #include <string>
 
 using namespace std;
